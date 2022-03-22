@@ -1,5 +1,5 @@
 plain_text =  input("Enter Plain text")
-key =  input("Enter key")
+key1 =  input("Enter key")
 
 
 def generate_pair(text):
