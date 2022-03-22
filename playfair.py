@@ -1,5 +1,5 @@
-plain_text = "eamuar"  # input("Enter Plain text")
-key = "monarchy"  # input("Enter key")
+plain_text =  input("Enter Plain text")
+key =  input("Enter key")
 
 
 def generate_pair(text):
@@ -91,3 +91,4 @@ for i, j in cipher_text_pair:
         # print(matrix[x1][y2], matrix[x2][y1])
         decoded += matrix[x1][y2] + matrix[x2][y1]
 print(f"Decoded Message: {decoded}")
+
